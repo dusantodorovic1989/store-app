@@ -8,19 +8,13 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
-import AppCustomers from './components/AppCustomers.vue';
-import AppProducts from './components/AppProducts.vue';
+
 import NavBar from './components/NavBar.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
-    AppCustomers,
-    AppProducts,
     NavBar
-
   }
 }
 </script>
